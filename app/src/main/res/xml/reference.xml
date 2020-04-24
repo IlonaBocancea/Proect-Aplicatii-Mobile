@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+    android:title="Lucrul cu fisierele"/>
+    <CheckBoxPreference
+        android:key="opening_mode"
+        android:summary="Deschiderea failului"
+        android:title="Deschidere"
+        android:enabled="false"/>
+    <PreferenceCategory
+        android:title="Setare_font"/>
+        <EditTextPreference
+            android:defaultValue="14"
+            android:dialogTitle="Marimea Fontului de la (10 pina la 30)"
+            android:key="size"
+            android:summary="Instalarea marimii noi"
+            android:title="Marimea Fontului" />
+        <ListPreference
+            android:defaultValue="1"
+            android:entryValues="text_style"
+            android:key="style"
+            android:summary="style font"
+            android:dialogTitle="Introduceti silul textlui" />
+</EditTextPreference>
+
+        <PreferenceScreen
+            android:key="color"
+            android:title="Culoarea textului"
+            android:summary="Color text"/>
+            <CheckBoxPreference
+                android:key="color_black"
+                android:title="Negru"
+                android:defaultValue="true"
+                android:summary="instalam culoarea neagra"/>
+        <CheckBoxPreference
+            android:key="color_red"
+            android:title="rosu"
+            android:summary="instalam culoarea rosie"/>
+        <CheckBoxPreference
+            android:key="color_green"
+            android:title="verde"
+            android:summary="instalam culoarea verde"/>
+        <CheckBoxPreference
+            android:key="color_blue"
+            android:title="albastru"
+            android:summary="instalam culoarea albastra"/>
+        </PreferenceScreen>
+</PreferenceCategory>
+</PreferenceScreen>
+

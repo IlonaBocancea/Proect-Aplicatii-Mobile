@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Application my</string>
+    <string name="action_open">Application my</string>
+    <string name="action_save">Application my</string>
+    <string name="action_clear">Application my</string>
+    <string name="action_setings">Application my</string>
+
+    <string name="opening_mode">Application my</string>
+    <string name="size">Application my</string>
+    <string name="style">Application my</string>
+    <string name="color">Application my</string>
+    <string name="color_red">Application my</string>
+    <string name="color_green">Application my</string>
+    <string name="color_blue">Application my</string>
+
+    <string name="tyle">Application my</string>
+    <string name="style_regular">Application my</string>
+    <string name="style_bold">Application my</string>
+    <string name="style_italic">Application my</string>
+</resources>
